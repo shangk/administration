@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image:url(../images/1.jpg);
+  background-size:cover;
+}
+
+a {
+  color: #00B7FF;
+}
+#confirm-password-alert{
+  color: #ff0000;
+  font-size: 23px;
+}
+#alert-div{
+  color: #ff0000;
+  font-size: 27px;
+}
+#register-form{
+ margin-top: 20%;
+  margin-left: 45%;
+}
+span{
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 22px;
+}
+input.register-btn{
+  font-size: 32px;
+  width:5rem;
+  position:relative;
+  left:4rem;
+}
+#login-user{
+  position:relative;
+  left:1.5rem;
+}
+#password{
+  position:relative;
+  left:2.8rem;
+}
+.login-hurry{
+  position:relative;
+  left:4rem;
+}

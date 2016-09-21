@@ -1,0 +1,18 @@
+//
+   Created by mac on 16/9/12.
+extends ../layout
+block content
+    div(class="head")
+        h1= title
+        p(style="font-size:20px;color:red") Welcome #{currentUser}
+    div(class="nav")
+        img(src="../images/yumao.jpg",id="logo")
+        a(href="/users/homepage") 主页
+        a(href="#") 待办
+        a(href="#") 随笔
+        a(href="#") 日记
+        a(href="#") 相册
+        a(href="/users/login") 退出
+    div(class="")
+    div(class="content")
+    div(class="foot")
